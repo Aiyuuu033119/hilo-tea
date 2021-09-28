@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFFFFF">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="250dp"
+		android:gravity="center"
+		android:id="@+id/detailsLinearLayout1">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="280dp"
+			android:layout_height="210dp"
+			android:background="@drawable/b1_img"
+			android:id="@+id/img_order"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/detailsLinearLayout1"
+		android:background="@drawable/details"
+		android:id="@+id/detailsLinearLayout2">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:paddingLeft="25dp"
+				android:paddingRight="20dp"
+				android:gravity="center_vertical"
+				android:layout_marginTop="20dp"
+				android:id="@+id/detailsLinearLayout3">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Large Text"
+					android:textSize="25sp"
+					android:fontFamily="@drawable/spartan"
+					android:textColor="#FFFFFF"
+					android:id="@+id/name"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="140dp"
+				android:layout_below="@id/detailsLinearLayout3"
+				android:layout_marginTop="30dp"
+				android:paddingRight="25dp"
+				android:paddingLeft="25dp"
+				android:id="@+id/detailsLinearLayout4">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Small Text dsalkmd;lask d;salk ;lasdk asdlk asdk as;ldkas;ldk ;asdk; askd;l aksdl;aks ;ldksal ;kdas;lk dsa;ld ksal;dkas;l kdsa;lk ;ladsa;kl jdsa;da;sl sa;dl kals;d ksa;ldk a;lskd a;lsdk ;lasdk a;lskd as;ld sa;l"
+					android:layout_marginTop="10dp"
+					android:textColor="#FFFFFF"
+					android:textAlignment="textStart"
+					android:fontFamily="@drawable/spartan"
+					android:id="@+id/details"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/detailsLinearLayout4"
+				android:layout_marginTop="22dp"
+				android:paddingLeft="25dp"
+				android:paddingRight="25dp"
+				android:gravity="center"
+				android:id="@+id/detailsLinearLayout5">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="PHP 101.00"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textSize="40sp"
+					android:textStyle="bold"
+					android:fontFamily="@drawable/spartan_bold"
+					android:id="@+id/price"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_below="@id/detailsLinearLayout5"
+				android:background="@drawable/cart_btn"
+				android:layout_marginTop="15dp"
+				android:id="@+id/cart_btn"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

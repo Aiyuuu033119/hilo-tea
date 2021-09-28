@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="#FFFFFF">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="70dp"
+			android:id="@+id/cartLinearLayout1"
+			android:background="@drawable/header"
+			android:gravity="center">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="130dp"
+				android:layout_height="40dp"
+				android:background="@drawable/logo_small"/>
+
+		</LinearLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_below="@id/cartLinearLayout1"
+			android:paddingLeft="15dp"
+			android:paddingRight="15dp"
+			android:paddingTop="15dp"
+			android:paddingBottom="25dp"
+			android:background="#FFFFFF">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:gravity="center_vertical"
+				android:id="@+id/title_2">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Order List"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold"
+					android:textSize="25sp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center"
+				android:layout_below="@id/title_2"
+				android:id="@+id/empty_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="No Order Added"
+					android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/empty_2"
+				android:id="@+id/m1_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/m1_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Yellow Pearl Milktea"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:id="@+id/m1_q_2"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="85.00"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"
+								android:id="@+id/m1_p_2"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/m1_list_2"
+				android:id="@+id/m2_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/m2_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Chocolate Milktea"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:id="@+id/m2_q_2"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="85.00"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"
+								android:id="@+id/m2_p_2"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/m2_list_2"
+				android:id="@+id/m3_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/m3_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Taho Milktea"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/m3_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="55.00"
+								android:id="@+id/m3_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/m3_list_2"
+				android:id="@+id/m4_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/m4_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Original Milktea"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/m4_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="75.00"
+								android:id="@+id/m4_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/m4_list_2"
+				android:id="@+id/m5_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/m5_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Mango Graham Milktea"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/m5_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="95.00"
+								android:id="@+id/m5_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/m5_list_2"
+				android:id="@+id/fr1_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/fr1_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Classic Coffee Frappe"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/fr1_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="55.00"
+								android:id="@+id/fr1_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/fr1_list_2"
+				android:id="@+id/fr2_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/fr2_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Gingerbread Frappe"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/fr2_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="65.00"
+								android:id="@+id/fr2_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/fr2_list_2"
+				android:id="@+id/fr3_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/fr3_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Epriso Chip Frappe"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/fr3_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="65.00"
+								android:id="@+id/fr3_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/fr3_list_2"
+				android:id="@+id/fr4_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/fr4_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Shamrock Shake"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/fr4_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="60.00"
+								android:id="@+id/fr4_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/fr4_list_2"
+				android:id="@+id/fr5_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/fr5_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Straberry Shake"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/fr5_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="70.00"
+								android:id="@+id/fr5_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/fr5_list_2"
+				android:id="@+id/b1_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/b1_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Classic Burger"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/b1_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="45.00"
+								android:id="@+id/b1_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/b1_list_2"
+				android:id="@+id/b2_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/b2_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Egg Burger"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/b2_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="55.00"
+								android:id="@+id/b2_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/b2_list_2"
+				android:id="@+id/b3_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/b3_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Cheese Burger"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/b3_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="55.00"
+								android:id="@+id/b3_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/b3_list_2"
+				android:id="@+id/b4_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/b4_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Chicken Burger"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/b4_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="60.00"
+								android:id="@+id/b4_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/b4_list_2"
+				android:id="@+id/b5_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/b5_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Double Burger"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/b5_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="80.00"
+								android:id="@+id/b5_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/b5_list_2"
+				android:id="@+id/ff1_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/ff1_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Classic French Fries"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/ff1_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="35.00"
+								android:id="@+id/ff1_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/ff1_list_2"
+				android:id="@+id/ff2_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/ff2_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Cheese French Fries"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/ff2_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="35.00"
+								android:id="@+id/ff2_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/ff2_list_2"
+				android:id="@+id/ff3_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/ff3_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Barbeque French Fries"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/ff3_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="35.00"
+								android:id="@+id/ff3_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/ff3_list_2"
+				android:id="@+id/ff4_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/ff4_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Cream n Sour French Fries"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/ff4_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="35.00"
+								android:id="@+id/ff4_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/ff4_list_2"
+				android:id="@+id/ff5_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/ff5_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Chili Barbeque French Fries"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/ff5_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="35.00"
+								android:id="@+id/ff5_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/ff5_list_2"
+				android:id="@+id/c1_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/c1_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Parmession Chicken"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/c1_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="70.00"
+								android:id="@+id/c1_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/c1_list_2"
+				android:id="@+id/c2_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/c2_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Hot n Spicy Chicken"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/c2_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="70.00"
+								android:id="@+id/c2_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/c2_list_2"
+				android:id="@+id/c3_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/c3_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Cheesy Chicken"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/c3_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="70.00"
+								android:id="@+id/c3_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/c3_list_2"
+				android:id="@+id/c4_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/c4_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Chicken Barbeque"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/c4_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="70.00"
+								android:id="@+id/c4_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_marginBottom="5dp"
+				android:gravity="center_vertical"
+				android:layout_below="@id/c4_list_2"
+				android:id="@+id/c5_list_2"
+				android:background="@drawable/list_item"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="80dp"
+					android:layout_height="60dp"
+					android:background="@drawable/c5_img"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout2">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Chicken Teriyaki"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout2">
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/cartLinearLayout3">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1x"
+								android:id="@+id/c5_q_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/cartLinearLayout3"
+							android:gravity="right">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="70.00"
+								android:id="@+id/c5_p_2"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:textStyle="bold"/>
+
+						</LinearLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/c5_list_2"
+				android:id="@+id/cartLinearLayout5_2"
+				android:layout_marginBottom="5dp">
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="70dp"
+					android:background="@drawable/list_item">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/cartLinearLayout4"
+						android:gravity="center">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="PHP 250.00"
+							android:textAppearance="?android:attr/textAppearanceLarge"
+							android:textStyle="bold"
+							android:textSize="30sp"
+							android:id="@+id/total_item_2"/>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/cartLinearLayout4"
+						android:gravity="center">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Paid/Delivered"
+							android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					</LinearLayout>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+
+</ScrollView>
+
